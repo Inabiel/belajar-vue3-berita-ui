@@ -37,7 +37,7 @@ export default {
   },
   async mounted() {
     let allberita = await Axios.get(
-      "http://backend-express-berita-api.herokuapp.com/api/v1/berita/allberita"
+      "https://backend-express-berita-api.herokuapp.com/api/v1/berita/allberita"
     );
     console.log(allberita);
     this.articles = allberita.data.data;
