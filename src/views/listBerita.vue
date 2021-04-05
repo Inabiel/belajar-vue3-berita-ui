@@ -41,6 +41,6 @@ export default {
     );
     console.log(allberita);
     this.articles = allberita.data.data;
-  },vue button color
+  },
 };
 </script>
