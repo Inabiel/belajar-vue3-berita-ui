@@ -5,7 +5,7 @@
     </h2>
     <hr />
     <div class="pr-4 pl-4">
-      {{ `${articles.waktu_post} | ${articles.kategori_berita}` }}
+      {{ `${articles.waktu_post} | ${articles.kategori_berita.nama}` }}
     </div>
     <div class="pr-4 pl-4">
       <div class="card-content has-background-dark has-text-primary-light">
