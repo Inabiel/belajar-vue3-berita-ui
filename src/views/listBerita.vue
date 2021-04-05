@@ -17,7 +17,7 @@
           v-html="article.isi_berita.substring(0, 250) + `...`"
           class="pr-4 pl-4 pb-5 has-text-justified"
         ></p>
-        <button class="button is-warning is-right">
+        <button class="button is-warning is-right is-outlined">
           <a :href="`/detailberita/${article.id}`">Klik Disini</a>
         </button>
       </li>
@@ -41,6 +41,6 @@ export default {
     );
     console.log(allberita);
     this.articles = allberita.data.data;
-  },
+  },vue button color
 };
 </script>
